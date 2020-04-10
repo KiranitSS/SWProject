@@ -1,1 +1,1 @@
-# Lohotron
+# SWProject
