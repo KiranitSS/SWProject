@@ -1,0 +1,12 @@
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\bin\Debug\ShipsWar.UI.WinForms.exe.config
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\bin\Debug\ShipsWar.UI.WinForms.exe
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\bin\Debug\ShipsWar.UI.WinForms.pdb
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.Form1.resources
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.Properties.Resources.resources
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.csproj.GenerateResource.Cache
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.exe
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\obj\Debug\ShipsWar.UI.WinForms.pdb
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\bin\Debug\ShipsWar.Model.dll
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.UI.WinForms\bin\Debug\ShipsWar.Model.pdb

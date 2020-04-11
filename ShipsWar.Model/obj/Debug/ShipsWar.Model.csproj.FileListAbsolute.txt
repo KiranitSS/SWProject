@@ -1,0 +1,6 @@
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.Model\bin\Debug\ShipsWar.Model.dll
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.Model\bin\Debug\ShipsWar.Model.pdb
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.Model\obj\Debug\ShipsWar.Model.csprojResolveAssemblyReference.cache
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.Model\obj\Debug\ShipsWar.Model.csproj.CoreCompileInputs.cache
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.Model\obj\Debug\ShipsWar.Model.dll
+C:\Users\Programmer\source\repos\ShipsWar.Model\ShipsWar.Model\obj\Debug\ShipsWar.Model.pdb
