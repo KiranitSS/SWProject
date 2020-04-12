@@ -26,7 +26,7 @@ namespace ShipsWar.UI.WinForms
             InitializeComponent();            
         }
 
-        public Form1(Game game):base()
+        public Form1(Game game):this()
         {
             _game = game;
 
@@ -35,16 +35,17 @@ namespace ShipsWar.UI.WinForms
 
         private void DrawInitialForm()
         {
-
+            DrawEnemyField();
+            DrawPlayerField();
         }
         #region Fields
         public void DrawEnemyField()
         {
-            DrawField(this.enemyFieldStartX, this.enemyFieldStartY, _game.enemyField);
+            DrawField(this.enemyFieldStartX, this.enemyFieldStartY, _game._enemyField);
         }
         public void DrawPlayerField()
         {
-            DrawField(this.playerFieldStartX, this.playerFieldStartY, _game.playerField);
+            DrawField(this.playerFieldStartX, this.playerFieldStartY, _game._playerField);
         }
 
         private void DrawField(int startX, int startY, Field field)

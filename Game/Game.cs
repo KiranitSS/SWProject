@@ -12,49 +12,50 @@ namespace BLL
     {
         readonly int fieldSize = 10;        
 
-       Random random = new Random();
-       public  Field enemyField = new Field();
-       public  Field playerField = new Field();
+       Random _random = new Random();
+       public  Field _enemyField = new Field();
+       public  Field _playerField = new Field();
 
         public Game()
         {
-
+            InitGame();
         }
 
-        //    public void GameStart()
-        //    {
-        //        this.CreateEnemyField(enemyField);
-        //        this.DrawEnemyField();
-        //        this.CreatePlayerField(playerField);
-        //        this.DrawField(50, 50, playerField);
-        //    }
+        public void InitGame()
+        {
+            this.CreateEnemyField(_enemyField);
+            this.CreatePlayerField(_playerField);
+        }
 
-        //    private void CreatePlayerField(Field field)
-        //    {
+        private void CreatePlayerField(Field field)
+        {
+            CreateEmptyField(field);
+        }
+        private void CreateEnemyField(Field field)
+        {
+            CreateEmptyField(field);
+            //ArrangeShips();
+        }
 
-        //    }
+        private void CreateEmptyField(Field field)
+        {
+            for (int x = 1; x <= 10; x++)
+            {
+                for (int y = 1; y <= 10; y++)
+                {
+                    Cell cell = new Cell(x, y);
+                    cell.Type = CellType.Sea;
+                    field.Add(cell);
+                }
+            }
+        }
+
         //    private void EnemyWarLogics() { }
         //    private void Fire() { }
         //    private void EndOfTurn() { }
 
-        //    private void CreateEnemyField(Field field)
-        //    {
-        //        CreateEmptyField(field);
-        //        ArrangeShips();
-        //    }
 
-        //    private void CreateEmptyField(Field field)
-        //    {
-        //        for (int x = 1; x <= 10; x++)
-        //        {
-        //            for (int y = 1; y <= 10; y++)
-        //            {
-        //                Cell cell = new Cell(x, y);
-        //                cell.Type = CellType.Sea;
-        //                field.Add(cell);
-        //            }
-        //        }
-        //    }
+
 
         //    private void ArrangeShips()
         //    {
