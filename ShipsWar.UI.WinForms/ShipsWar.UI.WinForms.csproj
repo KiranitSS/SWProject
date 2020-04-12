@@ -79,9 +79,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Game\Game.csproj">
+    <ProjectReference Include="..\Game\BLL.csproj">
       <Project>{0f791f86-d0f4-42dc-92ab-2c2147988a99}</Project>
-      <Name>Game</Name>
+      <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\ShipsWar.Model\ShipsWar.Model.csproj">
       <Project>{bf697a18-6b99-43ee-8ee2-b90b118ce5cd}</Project>

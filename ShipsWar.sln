@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipsWar.UI.WinForms", "Shi
 		{BF697A18-6B99-43EE-8EE2-B90B118CE5CD} = {BF697A18-6B99-43EE-8EE2-B90B118CE5CD}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{0F791F86-D0F4-42DC-92AB-2C2147988A99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "Game\BLL.csproj", "{0F791F86-D0F4-42DC-92AB-2C2147988A99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

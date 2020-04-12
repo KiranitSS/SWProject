@@ -7,16 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Game;
+using BLL;
 
 namespace ShipsWar.UI.WinForms
 {
     public partial class Form1 : Form
     {
+        Game _game;
         public Form1()
         {
-            InitializeComponent();
-            
+            InitializeComponent();            
+        }
+
+        public Form1(Game game):base()
+        {
+            _game = game;
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
 
 namespace ShipsWar.UI.WinForms
 {
@@ -16,7 +17,8 @@ namespace ShipsWar.UI.WinForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Game game = new Game();
+            Application.Run(new Form1(game));
         }
     }
 }
