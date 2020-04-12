@@ -42,7 +42,7 @@ namespace ShipsWar.UI.WinForms
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(1318, 554);
-            this.Name = "Form1";
+            this.Name = "ShipsWar";
             this.ResumeLayout(false);        
         }
         #endregion
